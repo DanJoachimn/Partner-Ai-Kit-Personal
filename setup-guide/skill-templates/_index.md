@@ -23,6 +23,7 @@
 
 | Skill | Trigger | What [PARTNER_NAME] gets |
 |---|---|---|
+| **waitwhat** | `/waitwhat` · *"wait, what?"*, *"you lost me"*, *"that didn't land"* | The last explanation re-pitched from a different angle, plain English. **[PARTNER_NAME]-only — [AI_NAME] can never fire this itself**, because it can't tell when it has confused them |
 | **check-telegram** | *"check my Telegram"* · or the poller wakes it after a phone message | Phone messages read, acted on, and replied to |
 | **wrap-up** | *"wrap up"*, *"that's good"*, end-of-session signals | Today's friction turned into permanent learnings, so the same mistake doesn't repeat |
 | **kick-off** | automatically, the very first session | Onboarding: their voice, projects, working style, backup — captured once |
