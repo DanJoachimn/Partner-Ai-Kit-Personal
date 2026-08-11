@@ -7,7 +7,7 @@ generated_by: claude-code
 
 # [PARTNER_NAME]'s Goals
 
-> The AI reads this every morning. Drift between what [PARTNER_NAME] says matters and how she's actually spending her time gets surfaced as friction.
+> The AI reads this every morning. Drift between what [PARTNER_NAME] says matters and how they're actually spending their time gets surfaced as friction.
 
 ## Right now (90-day goals)
 

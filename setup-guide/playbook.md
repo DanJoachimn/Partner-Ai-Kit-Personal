@@ -952,7 +952,7 @@ Two installed frameworks worth knowing about:
 
 **Not the same as Open Design or Hyperframes.** Open Design generates images *inside a larger design project* (a hero photo for the landing page you're building). Hyperframes generates HTML→MP4 motion graphics. **genmedia is for standalone deliverables** — the image / video file IS the output, not a component of a larger artifact.
 
-**When to install:** the partner produces content that needs hero imagery, social graphics, or short video clips on a regular cadence — newsletters with custom headers, podcasts with episode-specific art, social campaigns with original visuals. Skip if her content is mostly text-only.
+**When to install:** the partner produces content that needs hero imagery, social graphics, or short video clips on a regular cadence — newsletters with custom headers, podcasts with episode-specific art, social campaigns with original visuals. Skip if their content is mostly text-only.
 
 ##### Cost transparency (tell the partner upfront)
 
@@ -1006,7 +1006,7 @@ Interactive prompt asks for the fal.ai API key. The partner pastes the value the
 - **Bitwarden** (free tier, open-source — $40/year for Family) — solid free alternative
 - **Apple Passwords** (built into macOS, free, syncs via iCloud) — fine for Apple-only setups
 
-Tell the partner to also save the fal.ai API key in her password manager so she can rotate / restore it later. The genmedia config is the runtime copy; her password manager is the source of truth.
+Tell the partner to also save the fal.ai API key in their password manager so they can rotate / restore it later. The genmedia config is the runtime copy; their password manager is the source of truth.
 
 ##### Step 4 — Install the genmedia skill globally
 
@@ -1068,7 +1068,7 @@ If subagents were installed BEFORE Phase 12E, the templates still work (they che
 
 - **Opt-in only.** Same posture as Phase 7 (Voice I/O). Never install during initial onboarding — wait for the partner to produce content that needs imagery.
 - **Cost transparency is mandatory.** The partner sees actual numbers before paying. No hidden charges.
-- **Never paste the API key into chat.** Use the interactive `genmedia setup` prompt or have the partner export it to her environment herself.
+- **Never paste the API key into chat.** Use the interactive `genmedia setup` prompt or have the partner export it to their environment themselves.
 - **Don't auto-generate without confirmation.** The skill includes this rule but it's worth restating: every `genmedia run` call must follow a partner's explicit green light.
 
 ### Install rule
@@ -1088,7 +1088,7 @@ This way every installed skill has been earned by a real task, and the user unde
 | 12C Documents | anthropic-skills:{docx, xlsx, pptx, pdf}, pdf-viewer:* | Standard set |
 | 12D Specialized | landing-page-copywriting, cloffer, claumedian, matt-dicks-storytelling, ben-settle-subject-lines, anti-ai-writing | Heavy for content work |
 
-For [PARTNER_NAME]/[AI_NAME] specifically: she'll likely earn 12A (video-use first, Hyperframes if she goes deep), 12C (pdf at minimum), and 12D's matt-dicks-storytelling for her podcast guest narratives. Park the rest until needed.
+For [PARTNER_NAME]/[AI_NAME] specifically: they'll likely earn 12A (video-use first, Hyperframes if they go deep), 12C (pdf at minimum), and 12D's matt-dicks-storytelling for their podcast guest narratives. Park the rest until needed.
 
 ---
 

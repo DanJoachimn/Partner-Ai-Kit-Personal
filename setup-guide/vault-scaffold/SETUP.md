@@ -1,22 +1,22 @@
 # Obsidian Vault — Simplified Second Brain
 
-*The simplest vault that still feels like a second brain. Zero Hybrid Rule complexity. Zero Agent Brain. Just folders her AI can read and write, and a daily journal she can ignore or love.*
+*The simplest vault that still feels like a second brain. Zero Hybrid Rule complexity. Zero Agent Brain. Just folders their AI can read and write, and a daily journal they can ignore or love.*
 
 ---
 
-## What this gets her
+## What this gets them
 
-A single place where everything about her business lives:
+A single place where everything about their business lives:
 
-- Project briefs (sling wrap, muslin, pacifier clip, podcast season 2)
+- Project briefs (client onboarding, spring launch, newsletter relaunch, podcast season 2)
 - Meeting notes
-- Daily journal (if she wants one)
+- Daily journal (if they want one)
 - Brand canon (voice guide, reference brands, do-not-use list)
 - Random notes and clippings
 
-Her AI can search the whole vault, pull up context from old meetings or past decisions, and write updates directly to it. That's the second-brain unlock — the AI doesn't forget between sessions, because everything it might need to remember lives in files it can read.
+Their AI can search the whole vault, pull up context from old meetings or past decisions, and write updates directly to it. That's the second-brain unlock — the AI doesn't forget between sessions, because everything it might need to remember lives in files it can read.
 
-**Why this is worth doing for a time-squeezed founder:** every time she tells her AI "I decided X two weeks ago" and the AI says "remind me?" — that's a minute lost. A vault kills that tax.
+**Why this is worth doing for a time-squeezed founder:** every time they tell their AI "I decided X two weeks ago" and the AI says "remind me?" — that's a minute lost. A vault kills that tax.
 
 ---
 
@@ -26,30 +26,34 @@ Her AI can search the whole vault, pull up context from old meetings or past dec
 
 Free from **obsidian.md**. Drag to Applications.
 
-### 2. Create her vault
+### 2. Open the vault setup.sh already built
 
-Open Obsidian → "Create new vault." Name it something personal (e.g. "[PARTNER_NAME]'s Brain" or "[BRAND]"). Save location: `~/Documents/` or `~/Desktop/`. Keep it where she'll remember it.
+The vault already exists at `~/[ai-name]/vault/` — setup.sh created it. Don't create a new one.
+
+Open Obsidian → **"Open folder as vault"** → point it at `~/[ai-name]/vault`.
+
+> ⚠️ **Never save the vault into `~/Documents/` or `~/Desktop/`.** Both are TCC-protected by macOS, which silently blocks the AI's background routines (2 AM memory compression, the Telegram poller) from reading anything inside them. The home folder is the safe spot, and that's why setup.sh puts it there. This isn't a preference — install #1 lost a week to it.
 
 ### 3. Copy the scaffold folders
 
-From this `vault/` folder, copy the starter structure into her new vault:
+From this `vault/` folder, copy the starter structure into their new vault:
 
 ```bash
-# Adjust VAULT_PATH to wherever Obsidian created her vault
+# Adjust VAULT_PATH to wherever Obsidian created their vault
 VAULT_PATH="$HOME/[ai-name]/vault"
 
 cp -R "starter/"* "${VAULT_PATH}/"
 ```
 
-She'll now have:
+They'll now have:
 
 ```
 [BRAND]/
-├── CLAUDE.md                    <- vault rules for her AI
+├── CLAUDE.md                    <- vault rules for their AI
 ├── Projects/
-│   ├── [BRAND] — sling wrap.md
-│   ├── [BRAND] — muslin 3-pack.md
-│   ├── [BRAND] — pacifier clip.md
+│   ├── [BRAND] — spring launch.md
+│   ├── [BRAND] — client onboarding.md
+│   ├── [BRAND] — newsletter relaunch.md
 │   └── Podcast — season planning.md
 ├── Brand/
 │   ├── Voice guide.md
@@ -65,39 +69,39 @@ She'll now have:
     └── (empty — old stuff)
 ```
 
-### 4. Tell her AI about the vault
+### 4. Tell their AI about the vault
 
-Add to her `~/[ai-name]/CLAUDE.md`, under "How we remember things":
+Add to their `~/[ai-name]/CLAUDE.md`, under "How we remember things":
 
 ```markdown
-## Her vault (second brain)
+## The vault (second brain)
 
 [PARTNER_NAME]'s vault lives at `~/[ai-name]/vault/` (created by setup.sh — deliberately OUTSIDE ~/Documents/, because macOS's privacy lock on Documents blocks the AI's background routines from reading it). It contains:
-- Projects/ — one file per [BRAND] product or podcast project
+- Projects/ — one file per active [BRAND] project
 - Brand/ — brand voice guide, reference brands, do-not-use list (READ THIS BEFORE DRAFTING)
-- Daily/ — her daily journal (read-only for you unless she asks)
+- Daily/ — their daily journal (read-only for you unless they ask)
 - Meetings/ — meeting notes
-- Notes/ — her thinking-out-loud
+- Notes/ — their thinking-out-loud
 
-On startup, you don't need to read the whole vault. When she asks about a project,
+On startup, you don't need to read the whole vault. When they ask about a project,
 `Read` the relevant project file first. When drafting [BRAND] content, ALWAYS
 `Read Brand/Voice guide.md` and `Brand/Do-not-use list.md` before writing.
 
-You can append to Projects/ and Notes/ with her approval. Daily/ is her space —
-don't write there unless she explicitly asks.
+You can append to Projects/ and Notes/ with their approval. Daily/ is their space —
+don't write there unless they explicitly ask.
 ```
 
-### 5. Turn on Obsidian's built-in plugins she'll actually use
+### 5. Turn on Obsidian's built-in plugins they'll actually use
 
 In Obsidian → Settings → Core plugins, enable:
 
 - **Daily notes** — so a new `Daily/2026-05-01.md` is one click away.
 - **Backlinks** — shows which files mention the current file. Magic.
-- **File recovery** — autosave. Saves her from herself.
+- **File recovery** — autosave. Saves them from themselves.
 
-Keep the other core plugins off for now — out of the box Obsidian has ~30 and she only needs these three to start.
+Keep the other core plugins off for now — out of the box Obsidian has ~30 and they only need these three to start.
 
-**One community plugin worth adding later (Part 2):** **Smart Connections** — it builds a private, on-device "meaning fingerprint" of every note, which powers the `vault-semantic-search` skill (find notes by meaning, not just exact words). Optional, installed during Part 2's "Semantic search" stage — not now. If she opts in, that's the one community plugin the kit uses. Everything else stays off.
+**One community plugin worth adding later (Part 2):** **Smart Connections** — it builds a private, on-device "meaning fingerprint" of every note, which powers the `vault-semantic-search` skill (find notes by meaning, not just exact words). Optional, installed during Part 2's "Semantic search" stage — not now. If they opt in, that's the one community plugin the kit uses. Everything else stays off.
 
 ### 6. Open the vault in Obsidian (optional but recommended)
 
@@ -109,11 +113,11 @@ Open Obsidian → "Open folder as vault" → pick `~/[ai-name]/vault`.
 
 ---
 
-## The one rule she needs to follow
+## The one rule they need to follow
 
-**Don't nest folders more than two levels deep.** Obsidian handles deep nesting badly, and retrieval gets slow. If she finds herself making `Projects/[BRAND]/Products/Sling wrap/Research/`, stop. Flatten it.
+**Don't nest folders more than two levels deep.** Obsidian handles deep nesting badly, and retrieval gets slow. If they find themselves making `Projects/[BRAND]/Campaigns/Spring launch/Research/`, stop. Flatten it.
 
-Everything else about Obsidian is discoverable. She'll learn by using it.
+Everything else about Obsidian is discoverable. They'll learn by using it.
 
 ---
 
@@ -121,12 +125,12 @@ Everything else about Obsidian is discoverable. She'll learn by using it.
 
 - **Not a productivity system.** Obsidian is a file browser with a pretty UI. It doesn't "do" anything by itself.
 - **Not a project manager.** Use Notion or Trello or paper for that. The vault is for knowledge, not tasks.
-- **Not the Hab.** A power-user vault might have 40+ folders, an `_Brain/` system, a reflection firewall, and a Hybrid Rule. [PARTNER_NAME] does not need any of that. This scaffold is deliberately 6 folders. If she outgrows it, she outgrows it — but most people never do.
+- **Not the Hab.** A power-user vault might have 40+ folders, an `_Brain/` system, a reflection firewall, and a Hybrid Rule. [PARTNER_NAME] does not need any of that. This scaffold is deliberately 6 folders. If they outgrow it, they outgrow it — but most people never do.
 
 ---
 
-## When she hits a wall
+## When they hit a wall
 
-- **"I can't find anything."** → Teach her Obsidian's global search (`Cmd+Shift+F`). It searches across every file instantly.
+- **"I can't find anything."** → Teach them Obsidian's global search (`Cmd+Shift+F`). It searches across every file instantly.
 - **"It's getting messy."** → Archive aggressively. Move old project files to `Archive/`. Don't delete.
-- **"I don't know where to put this."** → `Notes/`. Always `Notes/`. She can sort later.
+- **"I don't know where to put this."** → `Notes/`. Always `Notes/`. They can sort later.

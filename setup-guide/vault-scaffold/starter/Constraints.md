@@ -27,7 +27,7 @@ generated_by: claude-code
 
 ## Energy
 
-*What drains [PARTNER_NAME]? What does she actively NOT want the AI to fill her plate with, even if it'd be useful?*
+*What drains [PARTNER_NAME]? What do they actively NOT want the AI to fill their plate with, even if it'd be useful?*
 
 - *[Drain 1]*
 - *[Drain 2]*
@@ -43,7 +43,7 @@ generated_by: claude-code
 
 - Reads when suggesting plans / schedules / tools / investments
 - Flags drift: "You said Friday afternoons were family time. The current proposal has you working through them. Worth confirming."
-- Pushes back when [PARTNER_NAME] commits to something that breaks a constraint she set
+- Pushes back when [PARTNER_NAME] commits to something that breaks a constraint they set
 
 ---
 

@@ -89,7 +89,7 @@ generated_by: claude-code
 
 ## How this list evolves
 
-[PARTNER_NAME] adds words/phrases here when she catches herself or her AI using one that breaks the voice. Over time this becomes the most useful file in the vault — the negative space that defines [BRAND].
+[PARTNER_NAME] adds words/phrases here when they catch themselves or their AI using one that breaks the voice. Over time this becomes the most useful file in the vault — the negative space that defines [BRAND].
 
 ---
 

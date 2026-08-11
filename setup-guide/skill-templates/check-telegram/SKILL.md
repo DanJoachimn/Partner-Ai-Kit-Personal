@@ -88,7 +88,7 @@ Edit the file's frontmatter: `processed: false` → `processed: true`. Append a 
 ```yaml
 processed: true
 processed_at: 2026-04-24T14:35:10Z
-action_taken: "Replied with 3-line answer about the Tekla collab."
+action_taken: "Replied with 3-line answer about the [Brand] collab."
 ```
 
 ### Step 5 — Summarise back to [PARTNER_NAME] in chat (interactive runs only)

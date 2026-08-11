@@ -199,7 +199,7 @@ After install: the AI reads everything in `vault/Clippings/` as context — same
 
 ## Stage 3.7 — Vault backup (~5 min, strongly recommended)
 
-The vault has been collecting Julie's voice, projects, memory, brand rules, clipped articles, and (if Granola is wired) meeting notes. It's the second brain. **Without backup, a Mac failure means starting over.**
+The vault has been collecting [PARTNER_NAME]'s voice, projects, memory, brand rules, clipped articles, and (if Granola is wired) meeting notes. It's the second brain. **Without backup, a Mac failure means starting over.**
 
 Three options ranked easiest first. Pick at least one. Picking two is the right answer for anyone who values what they're building.
 
@@ -251,7 +251,7 @@ We deliberately don't recommend iCloud Drive for the vault. iCloud auto-sync req
 
 If a user insists on iCloud (e.g., for cross-device access), the right answer is **Obsidian Sync** instead — same multi-device benefit, doesn't fight macOS TCC.
 
-(We learned this the hard way during Install #1 — see `~/Desktop/Claude's Office/julie-install-friction-log.md` for the gory architectural details.)
+(We learned this the hard way during Install #1 — the vault was placed in `~/Documents/`, and every background routine silently stopped reading it.)
 
 ---
 

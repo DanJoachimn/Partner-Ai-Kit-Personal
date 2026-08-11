@@ -9,12 +9,12 @@ generated_by: claude-code
 
 ## When in doubt, put it here
 
-[PARTNER_NAME]'s rule: if she doesn't know where something goes, it goes in `Notes/`. Sort later. Don't build a folder hierarchy until the hierarchy earns itself.
+[PARTNER_NAME]'s rule: if they don't know where something goes, it goes in `Notes/`. Sort later. Don't build a folder hierarchy until the hierarchy earns itself.
 
-## Her AI's role
+## The AI's role
 
 - **Read** freely.
-- **Append** with [PARTNER_NAME]'s approval for the first few weeks. Once it's clear what "worth saving" looks like, append proactively and tell her afterwards.
+- **Append** with [PARTNER_NAME]'s approval for the first few weeks. Once it's clear what "worth saving" looks like, append proactively and tell them afterwards.
 - **Never delete.** Move to `Archive/` instead.
 
 ---

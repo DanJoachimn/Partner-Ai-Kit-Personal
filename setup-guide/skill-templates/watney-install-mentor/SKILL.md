@@ -1,6 +1,6 @@
 ---
 name: watney-install-mentor
-description: Sibling to pacer-install-mentor. Fires at the end of each install phase during a Partner AI Kit (personal) install — the variant for individuals (creators, consultants, solo founders, professionals) installing a personal AI companion on their own Mac. Default companion name is PACER per the naming convention; users typically rename at first-run (Dani's instance is Watney; Julie's is likely her own choice). The skill itself stays named "watney-install-mentor" because the (personal) flavor is the lineage descendant of Watney's original architecture. Same three-section block as PACER's mentor — what just happened, why it matters for THEM, when they'll use it. Zero quizzes. Zero friction. Read or skip. Triggered automatically at every phase boundary in the (personal) kick-off, OR manually with "explain what we just installed" / "what did that do" / "value prop on [feature]".
+description: Sibling to pacer-install-mentor. Fires at the end of each install phase during a Partner AI Kit (personal) install — the variant for individuals (creators, consultants, solo founders, professionals) installing a personal AI companion on their own Mac. Default companion name is PACER per the naming convention; users typically rename at first-run (Dani's instance is Watney; users pick their own at kick-off). The skill itself stays named "watney-install-mentor" because the (personal) flavor is the lineage descendant of Watney's original architecture. Same three-section block as PACER's mentor — what just happened, why it matters for THEM, when they'll use it. Zero quizzes. Zero friction. Read or skip. Triggered automatically at every phase boundary in the (personal) kick-off, OR manually with "explain what we just installed" / "what did that do" / "value prop on [feature]".
 ---
 
 # watney-install-mentor
@@ -201,6 +201,6 @@ The pattern is identical. The anchoring is different.
 - **PACER kick-off (personal flavor)** — the parent skill. watney-install-mentor fires at its phase boundaries.
 - **anti-ai-writing** — every mentor block runs through these rules before output.
 
-## First real test
+## The quality bar
 
-The natural first test: Julie's install (the trial in Dani's network). Julie isn't a developer, isn't a gym owner — she's a target archetype for the (personal) variant. Have watney-install-mentor fire at each phase boundary of her install. After the install, ask her one question only: "If a friend asked you tomorrow what you set up today, what would you tell them?" If the answer is fluent and specific, the skill earned its keep. If the answer is hazy, tune the mentor blocks.
+Fire watney-install-mentor at every phase boundary of every install. After the install, ask the owner one question only: "If a friend asked you tomorrow what you set up today, what would you tell them?" If the answer is fluent and specific, the skill earned its keep. If the answer is hazy, tune the mentor blocks.

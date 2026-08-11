@@ -192,7 +192,7 @@ Used actively on all drafts. After removing AI patterns, this is the framework f
 **V — Vignette (the delivery vehicle for POP).** Short, sensory, mood-driven writing that captures a specific instant rather than summarizing a situation. Vivid detail over explanation. Emotional resonance over plot. The goal: make it feel witnessed, not reported. Vignettes set scenes before dialogue, anchor abstract claims in physical reality, and give the reader something to see, smell, or hear instead of just understand.
 
 Bad: "The presentation didn't go well."
-Good: "Slide 4. She clicks forward. The room shifts. Someone checks their phone. The CEO uncaps a pen, writes nothing, caps it again."
+Good: "Slide 4. The presenter clicks forward. The room shifts. Someone checks their phone. The CEO uncaps a pen, writes nothing, caps it again."
 
 Bad: "The restaurant was busy on a Friday night."
 Good: "Plates stacking up at the pass. The ticket machine won't stop printing. Someone calls 'behind' and nobody moves."

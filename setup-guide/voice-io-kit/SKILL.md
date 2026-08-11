@@ -17,7 +17,7 @@ description: Voice both ways. Transcribe voice notes (ElevenLabs Scribe, or Open
 
 - A Telegram inbox file has `type: voice` in its frontmatter. Voice audio is at the `voice_path` field.
 - [PARTNER_NAME] says "listen to this audio file" or "transcribe this m4a/mp3/oga."
-- She records a voice memo and drops the path in chat.
+- They record a voice memo and drop the path in chat.
 
 ## How to use
 
@@ -46,7 +46,7 @@ It prints the transcript to stdout. Errors go to stderr.
 
 1. [PARTNER_NAME] gives you a path (drag-drop into chat, or types it).
 2. Run `transcribe.sh /that/path`.
-3. Show her the transcript in chat.
+3. Show them the transcript in chat.
 4. Ask: "want me to act on this, or just keep the transcript?"
 
 ## Requirements
@@ -79,8 +79,8 @@ AI_NAME=[ai-name] ~/[AI_NAME]/scripts/transcribe.sh /path/to/any/voice-note.m4a
 
 - **Never re-transcribe a file you've already transcribed** — check the inbox file; if it already has a `## Transcript` heading, use that text.
 - **Never share transcripts outside of [PARTNER_NAME]'s sessions.** Voice notes are private.
-- **If the transcript is empty or nonsense** (Whisper sometimes fails on silence or very short clips), tell her: "couldn't transcribe — audio might be too short or too quiet. Want to try again?"
-- **Multi-language:** Whisper auto-detects. If [PARTNER_NAME] speaks Danish, the transcript is in Danish. Don't translate unless she asks.
+- **If the transcript is empty or nonsense** (Whisper sometimes fails on silence or very short clips), tell them: "couldn't transcribe — audio might be too short or too quiet. Want to try again?"
+- **Multi-language:** Whisper auto-detects. If [PARTNER_NAME] speaks Danish, the transcript is in Danish. Don't translate unless they ask.
 
 ## Voice out — spoken replies (built)
 

@@ -5,21 +5,21 @@ generated_by: claude-code
 
 # Meetings/
 
-Meeting notes — supplier calls, podcast guest pre-calls, collab discussions, manufacturer updates.
+Meeting notes — client calls, supplier quarterlies, collab discussions, podcast guest pre-calls.
 
 ## Naming convention
 
 `YYYY-MM-DD — [who / what].md`
 
 Examples:
-- `2026-05-01 — Tekla intro call.md`
-- `2026-05-03 — Muslin supplier quarterly.md`
+- `2026-05-01 — [Brand] intro call.md`
+- `2026-05-03 — Supplier quarterly.md`
 
-## Her AI's role
+## The AI's role
 
 - **Read** freely.
-- **Clean up raw transcripts on request.** She hands a messy transcript, [[ops]] subagent pulls decisions + action items (see ops.md — hard rule: don't write show notes, that's content's job).
-- **Append follow-up actions** when she says "add to the meeting note that I'll follow up with X."
+- **Clean up raw transcripts on request.** [PARTNER_NAME] hands over a messy transcript, [[ops]] subagent pulls decisions + action items (see ops.md — hard rule: don't write show notes, that's content's job).
+- **Append follow-up actions** when they say "add to the meeting note that I'll follow up with X."
 
 ## Format for processed meeting notes
 

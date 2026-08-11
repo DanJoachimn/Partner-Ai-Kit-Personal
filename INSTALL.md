@@ -376,7 +376,7 @@ Walk it:
 
 No user action this stage — it's a 30-second framing so the user doesn't reflexively turn on iCloud Documents sync later thinking it's the safe move.
 
-**Why this stage exists:** Install #1 (Julie's Em, 2026-05-18) discovered the hard way that `~/Documents/` is TCC-protected on modern macOS and breaks launchd background jobs. The kit originally walked users through enabling iCloud Drive Documents sync as the backup layer; that was the wrong call. Backup happens via Time Machine / GitHub / Obsidian Sync in Part 2. See `~/Desktop/Claude's Office/julie-install-friction-log.md` for the full architectural finding.
+**Why this stage exists:** Install #1 (2026-05-18) discovered the hard way that `~/Documents/` is TCC-protected on modern macOS and breaks launchd background jobs. The kit originally walked users through enabling iCloud Drive Documents sync as the backup layer; that was the wrong call. Backup happens via Time Machine / GitHub / Obsidian Sync in Part 2.
 
 ---
 

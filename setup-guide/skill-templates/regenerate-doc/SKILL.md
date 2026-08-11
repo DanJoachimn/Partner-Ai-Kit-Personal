@@ -114,11 +114,11 @@ The log is what makes regenerations safe — every regeneration is reversible.
 
 ### Invocation 1 — refresh kit INSTALL.md after a real install
 
-> [PARTNER_NAME]: *"Regenerate INSTALL.md using everything we learned from Julie's install."*
+> [PARTNER_NAME]: *"Regenerate INSTALL.md using everything we learned from the last install."*
 
 This skill:
 1. Reads current `INSTALL.md`
-2. Reads `~/Desktop/Claude's Office/julie-install-friction-log.md`
+2. Reads `~/Desktop/Claude's Office/*-install-friction-log.md`
 3. Reads any newer skill `Common Failures` sections
 4. Reads the kit's last 2 weeks of commits to understand what shipped
 5. Drafts new `INSTALL.md` integrating the 4 Install #1 findings cleanly (FFmpeg, TCC/launchd, CLI auth workaround, backup story)

@@ -9,7 +9,7 @@ One file per real person in [PARTNER_NAME]'s working life. Clients, suppliers, c
 
 ## Why this matters for the AI
 
-When [PARTNER_NAME] says *"draft a follow-up to Sarah,"* the AI reads `People/Sarah [Lastname].md` first. It now knows: who Sarah is, the tone she expects, what they last discussed, what's outstanding. The draft lands on first try instead of asking 5 clarifying questions.
+When [PARTNER_NAME] says *"draft a follow-up to Sarah,"* the AI reads `People/Sarah [Lastname].md` first. It now knows: who Sarah is, the tone Sarah expects, what they last discussed, what's outstanding. The draft lands on first try instead of asking 5 clarifying questions.
 
 ## How to add a person
 

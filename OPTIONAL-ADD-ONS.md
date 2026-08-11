@@ -55,6 +55,63 @@
 
 ---
 
+## 🔌 MCP servers — giving [AI_NAME] reach
+
+Everything above is an *app*. These are different: an **MCP server** is a connection
+that lets [AI_NAME] reach out and *do* something on the live internet, rather than
+only working with files on your Mac.
+
+**Read this before adding either.** Both are genuinely useful and both change the
+shape of what [AI_NAME] can do — which cuts in two directions:
+
+- **They cost money per use**, not a flat monthly fee. Small jobs are pennies. A
+  large scrape can be several dollars. Check the bill in the first week rather
+  than at the end of the month.
+- **They reach outward.** The rest of your kit reads your own files. These send
+  requests to other people's websites. Point them at public information —
+  business listings, published articles, public profiles — and be deliberate
+  about anything more sensitive than that.
+- **They break.** Websites change their layout and the scraper that worked last
+  month returns nothing. Expect maintenance. Don't build something you depend on
+  daily without accepting that.
+
+### 🕷 Apify — ready-made scrapers for specific sites
+- **What it does:** a store of pre-built robots that each know how to read one
+  website — Google Maps, LinkedIn, Instagram, Zillow, and hundreds more. You ask
+  for a list, it goes and gets it, and hands back structured data.
+- **Use it when:** you need to *build a list* from a site that has one — local
+  businesses in your area, event listings, competitor pages. The boring
+  copy-into-a-spreadsheet work.
+- **Cost:** pay-per-use, billed per robot run.
+- **Add it:** `claude mcp add apify "https://mcp.apify.com/" -t http --scope user`
+  · [apify.com](https://apify.com)
+
+> ⚠️ **Use `--scope user`.** Without it the CLI defaults to *local* scope, which
+> silently chains the server to whatever folder you ran the command in — it then
+> loads nowhere else, with no error to tell you why. This has bitten this kit's
+> author on a paid subscription that went unused for weeks.
+
+### 🔥 Firecrawl — turn any page into clean text
+- **What it does:** fetches a web page (or a whole site) and returns readable
+  text instead of raw HTML, so [AI_NAME] can actually work with it. Also does
+  search and multi-page crawls.
+- **Use it when:** you want [AI_NAME] to read something on the web properly —
+  research, competitor pages, documentation, an article you want summarised.
+  This is the general-purpose one; Apify is the site-specific one.
+- **Cost:** free tier, then paid by volume.
+- **Add it:** see [firecrawl.dev](https://firecrawl.dev) for the current MCP URL,
+  then `claude mcp add firecrawl "<url>" -t http --scope user`
+
+**Which one do you actually need?** Most people want **Firecrawl** first — reading
+pages is the common case. Add **Apify** only when you hit a specific site that
+Firecrawl can't get into, or when you need hundreds of rows rather than one page.
+
+> **Note on both:** MCP servers load when a session *starts*. After adding one,
+> quit [AI_NAME] and open it again, or the tools won't appear. Most remote
+> servers also ask you to sign in through your browser the first time.
+
+---
+
 ## 🧩 Skills & skill packs
 
 The kit ships lean infrastructure. For optional *capability* skills — document creation (Word/PowerPoint/PDF/Excel), marketing packs, dev workflows — see the dedicated menu:

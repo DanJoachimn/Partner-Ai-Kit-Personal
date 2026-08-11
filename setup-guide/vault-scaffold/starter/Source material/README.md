@@ -33,7 +33,7 @@ Two ways:
 
 ## Curation rule
 
-Quality > quantity. **3 great samples beat 30 mediocre ones.** When [PARTNER_NAME] catches herself thinking "this one was good," save it here. Skip the average ones.
+Quality > quantity. **3 great samples beat 30 mediocre ones.** When [PARTNER_NAME] catches themselves thinking "this one was good," save it here. Skip the average ones.
 
 ## What the AI does with this folder
 

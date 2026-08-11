@@ -41,7 +41,7 @@ changes. Every fact has an inline citation.]
 - YYYY-MM-DD — [event] [Source: ...]
 ```
 
-**Above the divider = compiled truth.** May be rewritten as the picture changes (she moved cities → the top updates).
+**Above the divider = compiled truth.** May be rewritten as the picture changes (a contact moved cities → the top updates).
 
 **Below the divider = append-only timeline.** Never deleted, only added to. The full story of how the picture changed over time.
 
@@ -71,7 +71,7 @@ Only create a `people/` or `companies/` page for an entity mentioned **at least 
 
 ## The reflection firewall (off-limits to reflection commands)
 
-The `_Brain/` is the AI's compiled inferences. Reflection-style commands (anything that mines [PARTNER_NAME]'s *own* thinking for patterns) must read ONLY Substrate A — never `_Brain/`. Otherwise the AI's inferences would get surfaced back to [PARTNER_NAME] as if they were her own thoughts. Operational skills (meeting capture, enrichment, morning brief) MAY read `_Brain/`. Reflection commands MAY NOT.
+The `_Brain/` is the AI's compiled inferences. Reflection-style commands (anything that mines [PARTNER_NAME]'s *own* thinking for patterns) must read ONLY Substrate A — never `_Brain/`. Otherwise the AI's inferences would get surfaced back to [PARTNER_NAME] as if they were their own thoughts. Operational skills (meeting capture, enrichment, morning brief) MAY read `_Brain/`. Reflection commands MAY NOT.
 
 ## Re-read before edit
 

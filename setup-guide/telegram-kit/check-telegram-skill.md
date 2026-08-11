@@ -48,13 +48,13 @@ If none: tell [PARTNER_NAME] "nothing new on Telegram" and stop.
 
 Read the file. Common shapes:
 
-- **Text question / request** — she's asking you something. Answer it. Reply via Telegram.
+- **Text question / request** — they're asking you something. Answer it. Reply via Telegram.
 - **Voice note** — transcribe via the `voice-io` skill, THEN treat as text.
 - **Quick note ("add to notes: X")** — save it, confirm back.
 - **Task dump ("I need you to draft Y")** — draft it, reply with a confirmation + where the draft landed.
 - **Ambient thinking ("just thinking about Z")** — acknowledge briefly, save to `notes.md` if relevant.
 
-### Step 3 — Reply on Telegram when she expects a reply
+### Step 3 — Reply on Telegram when they expect a reply
 
 Source the token:
 
@@ -79,18 +79,18 @@ Edit the file's frontmatter: `processed: false` → `processed: true`. Append a 
 ```yaml
 processed: true
 processed_at: 2026-04-24T14:35:10Z
-action_taken: "Replied with 3-line answer about the Tekla collab."
+action_taken: "Replied with 3-line answer about the [Brand] collab."
 ```
 
 ### Step 5 — Summarise back to [PARTNER_NAME] in chat
 
-When she's in a Claude Code session and asked you to check Telegram, don't just silently process. Tell her what you did:
+When they're in a Claude Code session and asked you to check Telegram, don't just silently process. Tell them what you did:
 
 ```
 Processed 4 Telegram messages:
-- [12:03, voice] she asked for a muslin caption draft — drafted in `drafts/muslin-caption-12-03.md`, replied "draft ready, see your folder"
-- [13:47, text] she asked what Rhode is charging for the peptide lip treatment — replied with the number ($18)
-- [14:02, text] note saved to notes.md: "Tekla collab is a north-star, not a next-quarter plan"
+- [12:03, voice] they asked for a product caption draft — drafted in `drafts/product-caption-12-03.md`, replied "draft ready, see your folder"
+- [13:47, text] they asked what a competitor charges for their entry plan — replied with the number ($29/mo)
+- [14:02, text] note saved to notes.md: "the [Brand] collab is a north-star, not a next-quarter plan"
 - [14:31, voice] quick thought, no action needed — replied "noted"
 
 Anything else you want me to handle?
@@ -98,11 +98,11 @@ Anything else you want me to handle?
 
 ## Hard rules
 
-- **Never reply to Telegram as yourself without her knowing what you said.** Always surface it in the summary.
-- **Never send her a reply that exceeds ~500 characters on Telegram.** Long content goes to `drafts/`, Telegram gets a pointer.
+- **Never reply to Telegram as yourself without [PARTNER_NAME] knowing what you said.** Always surface it in the summary.
+- **Never send a reply that exceeds ~500 characters on Telegram.** Long content goes to `drafts/`, Telegram gets a pointer.
 - **Never process messages from user IDs not in the allowlist.** The poller handles this, but double-check: if you see a message from an unexpected user ID, flag it and don't act.
-- **Never delete inbox files.** Mark `processed: true` and leave them. She (or a future archive skill) can sweep later.
-- **Voice notes must be transcribed before acting.** If voice-io skill isn't installed yet, tell her: "voice note from [time] — can't transcribe until voice-io is set up. File sitting in inbox."
+- **Never delete inbox files.** Mark `processed: true` and leave them. [PARTNER_NAME] (or a future archive skill) can sweep later.
+- **Voice notes must be transcribed before acting.** If voice-io skill isn't installed yet, tell them: "voice note from [time] — can't transcribe until voice-io is set up. File sitting in inbox."
 
 ## When to hand back
 
