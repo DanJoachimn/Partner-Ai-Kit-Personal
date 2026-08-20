@@ -55,6 +55,22 @@
 
 ---
 
+## 🎬 Video & Motion — the one true add-on
+
+Everything else on this page is a single tool. This is a whole **package**, kept
+deliberately outside the main kit so the default install stays short.
+
+- **What it does:** [AI_NAME] watches, edits, animates and generates video.
+- **Say yes if:** you publish video, record Looms or course modules, or want long
+  videos transcribed instead of watched.
+- **Say no if:** you mostly write, brief and run admin — and add it later, free, the
+  first time you wish [AI_NAME] could cut a clip for you.
+- **Cost:** free skills. A couple of optional paid tools, free tiers shown first.
+- **Install:** tell [AI_NAME] *"I need the video add-on, go ahead."*
+  → full detail in **[VIDEO-ADD-ON.md](./VIDEO-ADD-ON.md)**
+
+---
+
 ## 🔌 MCP servers — giving [AI_NAME] reach
 
 Everything above is an *app*. These are different: an **MCP server** is a connection

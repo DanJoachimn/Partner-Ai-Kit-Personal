@@ -164,5 +164,5 @@ When the AI catches a tuning for a skill that doesn't have a `learnings.md` yet,
 
 ## See also
 
-- [05 - Setting Up Your Partner AI](../05%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — Phase 11B is where the learnings loop gets installed
-- [06 - The Kick-off Flow](../06%20-%20The%20Kick-off%20Flow/kick-off.md) — first-run setup that the loop builds on top of
+- [02 - Setting Up Your Partner AI](../02%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — Phase 11B is where the learnings loop gets installed
+- [03 - The Kick-off Flow](../03%20-%20The%20Kick-off%20Flow/kick-off.md) — first-run setup that the loop builds on top of

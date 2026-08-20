@@ -97,7 +97,7 @@ Don't be that person. **Five minutes of setup. Saves you months of work.**
 
 ## How your AI helps
 
-The kick-off flow (see [06 - The Kick-off Flow](../06%20-%20The%20Kick-off%20Flow/kick-off.md)) walks you through Layer 1 and Layer 2 automatically. You just answer "yes / no / I don't know" to a few questions and the AI handles the rest.
+The kick-off flow (see [03 - The Kick-off Flow](../03%20-%20The%20Kick-off%20Flow/kick-off.md)) walks you through Layer 1 and Layer 2 automatically. You just answer "yes / no / I don't know" to a few questions and the AI handles the rest.
 
 If you skipped the kick-off OR want to verify everything is set up correctly, ask your AI:
 
@@ -109,6 +109,6 @@ The AI will run the checks and tell you what's missing.
 
 ## See also
 
-- [05 - Setting Up Your Partner AI](../05%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — the full 12-phase setup (Phase 1B is portability)
-- [06 - The Kick-off Flow](../06%20-%20The%20Kick-off%20Flow/kick-off.md) — what runs Layer 1 + 2 for you automatically
-- [03 - API Key Hygiene](../03%20-%20API%20Key%20Hygiene/api-key-hygiene.md) — where your secrets live and how to handle them
+- [02 - Setting Up Your Partner AI](../02%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — the full 12-phase setup (Phase 1B is portability)
+- [03 - The Kick-off Flow](../03%20-%20The%20Kick-off%20Flow/kick-off.md) — what runs Layer 1 + 2 for you automatically
+- [01 - API Key Hygiene](../01%20-%20API%20Key%20Hygiene/api-key-hygiene.md) — where your secrets live and how to handle them

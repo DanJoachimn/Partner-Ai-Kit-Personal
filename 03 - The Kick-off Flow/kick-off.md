@@ -115,6 +115,6 @@ You never see the kit folder structure, the YAML frontmatter, or the SKILL.md in
 
 ## See also
 
-- [05 - Setting Up Your Partner AI](../05%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — the full 12-phase setup
-- [07 - Portability and Recovery](../07%20-%20Portability%20and%20Recovery/portability.md) — what the kick-off Section A protects
-- [08 - The Learnings Loop](../08%20-%20The%20Learnings%20Loop/learnings-loop.md) — the compounding system that activates after kick-off
+- [02 - Setting Up Your Partner AI](../02%20-%20Setting%20Up%20Your%20Partner%20AI/setting-up.md) — the full 12-phase setup
+- [04 - Portability and Recovery](../04%20-%20Portability%20and%20Recovery/portability.md) — what the kick-off Section A protects
+- [05 - The Learnings Loop](../05%20-%20The%20Learnings%20Loop/learnings-loop.md) — the compounding system that activates after kick-off

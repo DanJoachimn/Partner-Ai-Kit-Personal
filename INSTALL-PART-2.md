@@ -327,7 +327,7 @@ If yes:
 3. Test a manual sync — files should appear in `vault/Meeting Notes/`.
 4. Schedule via launchd (12:30 + 17:00 daily).
 
-Full setup in `09 - Meeting Capture with Granola/granola.md`. Mark complete: `touch ~/[AI_NAME]/.granola-configured`
+Full setup in `06 - Meeting Capture/granola.md`. Mark complete: `touch ~/[AI_NAME]/.granola-configured`
 
 ---
 

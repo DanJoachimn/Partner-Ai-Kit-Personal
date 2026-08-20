@@ -11,7 +11,7 @@
 | **`playbook.md`** | The full canonical playbook (~6,000 words). Every phase, every step, every decision point, written for the AI installer. The numbered guides 05–08 in the parent folder are the user-friendly versions of this. |
 | **`claude-md-template.md`** | Template for the `CLAUDE.md` file every partner AI gets. Has placeholders like `[AI_NAME]`, `[PARTNER_NAME]` that get filled in during install. |
 | **`user-manual-template.md`** | Template for the `USER_MANUAL.md` every partner gets. Includes the portability/recovery section. |
-| **`kick-off-pattern-reference.md`** | Quick-reference doc on the kick-off flow. The numbered guide `06 - The Kick-off Flow` is the user-facing version. |
+| **`kick-off-pattern-reference.md`** | Quick-reference doc on the kick-off flow. The numbered guide `03 - The Kick-off Flow` is the user-facing version. |
 | **`subagent-templates/`** | Five generic subagent templates: **content** (drafting), **research** (web/sources), **assistant** (admin/inbox), **developer** (technical work — optional), **design** (visual/UX work — Refero-grounded, anti-slop). Get copied into a new partner's `.claude/agents/` and tuned to their domain. |
 | **`telegram-kit/`** | Standalone Telegram poller (for power users with multi-session setups). Includes the bash poller, the launchd plist template, and the check-telegram skill. |
 | **`vault-scaffold/`** | Simplified Obsidian vault starter (6 folders + Brand/ templates). Copy into a new partner's vault to give them a working structure. |
@@ -45,10 +45,9 @@ When this whole `WATNEY` folder gets shipped to someone new, they see:
 ```
 WATNEY/
 ├── README.md                              ← they read this
-├── 01 - Hyperframes/                      ← they read these
-├── 02 - Video Use/
+├── 01 - API Key Hygiene/                  ← they read these
 ├── ...
-├── 08 - The Learnings Loop/
+├── 05 - The Learnings Loop/
 └── setup-guide/               ← AI reads this; user can ignore
 ```
 

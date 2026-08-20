@@ -44,7 +44,7 @@ The setup is in **phases** because cognitive load matters. A 6-hour weekend mara
 Install Claude Code Desktop. Install Command Line Tools when prompted. Create `~/[ai-name]/` (lowercase, no spaces, INSIDE Documents — this is critical for backup).
 
 **Phase 1B — Portability.**
-Verify iCloud Drive is on (System Settings → Apple ID → iCloud → Desktop & Documents Folders ticked). This is what makes the AI recoverable on a new Mac. Don't skip. See [07 - Portability & Recovery](../07%20-%20Portability%20and%20Recovery/portability.md).
+Verify iCloud Drive is on (System Settings → Apple ID → iCloud → Desktop & Documents Folders ticked). This is what makes the AI recoverable on a new Mac. Don't skip. See [07 - Portability & Recovery](../04%20-%20Portability%20and%20Recovery/portability.md).
 
 **Phase 2 — Personality guide (optional but powerful).**
 Pick two influences: a "soul" (a character whose tone fits your AI) and a "spice" (a comedy/rhetoric style for distinctiveness). Feed 2–3 hours of their longform content (transcripts) to Claude with a "build me a personality guide" prompt. Save the result. The AI reads it on every startup.
@@ -79,13 +79,15 @@ Reusable capabilities. The AI watches for recurring tasks and offers to turn the
 
 **Phase 11 — Operational OS.**
 The compounding layer:
-- **Bootstrap kick-off** — AI walks you through setup decisions on first run (see [06 - The Kick-off Flow](../06%20-%20The%20Kick-off%20Flow/kick-off.md))
-- **Learnings loop** — every skill has a `learnings.md` it reads before running, so accumulated feedback compounds (see [08 - The Learnings Loop](../08%20-%20The%20Learnings%20Loop/learnings-loop.md))
+- **Bootstrap kick-off** — AI walks you through setup decisions on first run (see [03 - The Kick-off Flow](../03%20-%20The%20Kick-off%20Flow/kick-off.md))
+- **Learnings loop** — every skill has a `learnings.md` it reads before running, so accumulated feedback compounds (see [05 - The Learnings Loop](../05%20-%20The%20Learnings%20Loop/learnings-loop.md))
 - **Wrap-up skill** — at end of session, AI offers to log the day's lessons; you don't have to remember to ask
 - **Heartbeat hook** — auto-sync of installed skills (deferred until needed)
 
 **Phase 12 — Creative tool skills (on demand).**
-Pre-built skills for common creative work: video editing (`video-use`, Remotion, Hyperframes — see [01 - Hyperframes](../01%20-%20Hyperframes/hyperframes.md) and [02 - Video Use](../02%20-%20Video%20Use/video-use.md)), web design, document generation. Don't pre-install — wait for the work to surface the need.
+Pre-built skills for common creative work: web design, document generation. Don't pre-install — wait for the work to surface the need.
+
+**Video and animation are a separate add-on**, deliberately not bundled — see [VIDEO-ADD-ON.md](../VIDEO-ADD-ON.md). Most people never need it; the ones who do get a much bigger toolkit than would fit here.
 
 ---
 
