@@ -23,7 +23,6 @@
 
 | Skill | Trigger | What [PARTNER_NAME] gets |
 |---|---|---|
-| **waitwhat** | `/waitwhat` · *"wait, what?"*, *"you lost me"*, *"that didn't land"* | The last explanation re-pitched from a different angle, plain English. **[PARTNER_NAME]-only — [AI_NAME] can never fire this itself**, because it can't tell when it has confused them |
 | **check-telegram** | *"check my Telegram"* · or the poller wakes it after a phone message | Phone messages read, acted on, and replied to |
 | **wrap-up** | *"wrap up"*, *"that's good"*, end-of-session signals | Today's friction turned into permanent learnings, so the same mistake doesn't repeat |
 | **kick-off** | automatically, the very first session | Onboarding: their voice, projects, working style, backup — captured once |
@@ -63,3 +62,19 @@ That's not fussiness — it's a scar. A previous version ran on the same Python 
 ## Which of these actually install
 
 `setup.sh` installs **12** of these automatically (everything above except the three specs). The specs ship as templates so the scripts can be built later without re-downloading the kit.
+
+---
+
+## Slash commands (typed, not auto-fired)
+
+Skills fire when they match. **Commands fire only when [PARTNER_NAME] types them.** They live in `~/.claude/commands/`.
+
+| Command | What it does |
+|---|---|
+| **`/waitwhat`** | *"That didn't land."* Re-explains the last thing from a completely different angle — plain English, no jargon, smart-12-year-old register. Not a shorter version of the same explanation; a different one. |
+
+`/waitwhat` is introduced to [PARTNER_NAME] in the first two minutes of the install and works in every session forever.
+
+**Two rules:** [AI_NAME] can never fire this itself — it can't tell when it has confused someone, which is exactly why the command has to belong to [PARTNER_NAME]. And treat every use as your miss to fix, never as their failure to follow.
+
+Also fires on the plain-English equivalents: *"wait, what?"*, *"you lost me"*, *"that didn't land"*.

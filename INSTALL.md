@@ -56,6 +56,18 @@ When in doubt, add the gate. The friction is small; the cost of a wrong-send is 
 
 **This is the ONE greeting.** Stage 0 below picks up the thread — it does not say hello again. Greeting twice in five minutes reads like a script, not a person.
 
+### Then hand them the escape hatch — before anything technical starts
+
+[PARTNER_NAME] is about to have an hour of unfamiliar things explained to them. Give them the ripcord **now**, while it's still cheap to mention, so they never sit in silent confusion later:
+
+> "One thing before we start, and it's for you rather than me. If I ever explain something and it doesn't land — type **`/waitwhat`** and hit enter. I'll stop and explain it a completely different way, in plain English, no jargon. Use it as many times as you like, today or in a year.
+>
+> And to be clear about how this works: if something doesn't make sense, that's my explanation being bad, not you missing something. `/waitwhat` is me fixing my miss."
+
+That last line is the load-bearing one. **Say it.** The whole reason a non-developer stops asking questions is embarrassment — naming it up front is what keeps them asking for the next hour.
+
+`/waitwhat` installs automatically with the kit (setup.sh, Stage 6). It works in every session forever, not just during the install.
+
 THEN verify the two capabilities that turn this kit from a chatbot install into an agent install: **computer use** + **Claude Chrome extension**.
 
 These are not install conveniences. They are **half the magic.** The user is about to spend 45 minutes installing a "Partner AI." The first time the AI opens System Settings for them, or fills out a BotFather form, or takes a screenshot to confirm the toggle they just enabled — that's the aha-moment compounding *throughout* the install, not just at the voice-note climax. Without these, the user finishes Part 1 with a smart chatbot. With them, the user finishes Part 1 *feeling* the partnership for the first time.

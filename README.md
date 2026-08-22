@@ -125,6 +125,7 @@ Split for $20 Claude Pro users — Part 1 fits comfortably in a single Pro sessi
 - 5-question voice interview that sharpens your AI's drafts
 - Premium voices (ElevenLabs) — optional
 - Meeting auto-capture (Granola) — optional
+- **`/waitwhat`** — type it any time an explanation doesn't land, and your AI re-explains from scratch in plain English
 - Extra skills (animation, video editing, content pipelines, more) — pick what you want
 
 You can stop after Part 1 and have a fully-working partner. Part 2 is opt-in when you're ready.

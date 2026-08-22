@@ -40,6 +40,7 @@ LOGS_DIR="$AI_HOME/logs"
 LOG_FILE="$LOGS_DIR/install.log"
 RECOVERY_DIR="$AI_HOME/_recovery"
 SKILLS_DIR="$HOME_DIR/.claude/skills"
+COMMANDS_DIR="$HOME_DIR/.claude/commands"
 AGENTS_DIR="$AI_HOME/.claude/agents"
 LAUNCHAGENTS_DIR="$HOME_DIR/Library/LaunchAgents"
 USER_NAME="$(whoami)"
@@ -136,6 +137,20 @@ stage_skills() {
         cp "$SKILL_SRC/_index.md" "$SKILLS_DIR/_index.md"
         perl -i -pe "s/\[AI_NAME\]/$AI_NAME/g; s/\[PARTNER_NAME\]/$PARTNER_NAME/g;" \
             "$SKILLS_DIR/_index.md"
+    fi
+
+    # Slash commands — user-typed escape hatches. /waitwhat is the big one:
+    # it lets a non-developer say "that didn't land" without feeling awkward.
+    local CMD_SRC="$KIT_DIR/setup-guide/command-templates"
+    if [ -d "$CMD_SRC" ]; then
+        mkdir -p "$COMMANDS_DIR"
+        cp "$CMD_SRC"/*.md "$COMMANDS_DIR/" 2>/dev/null || true
+        find "$COMMANDS_DIR" -type f -name "*.md" -print0 | \
+            xargs -0 perl -i -pe "
+                s/\\[AI_NAME\\]/$AI_NAME/g;
+                s/\\[PARTNER_NAME\\]/$PARTNER_NAME/g;
+            " 2>/dev/null || true
+        log_stage "6-COMMANDS" "slash commands installed to $COMMANDS_DIR (/waitwhat)"
     fi
 
     log_stage "6-SKILLS" "$CORE_SKILLS + _index.md installed to $SKILLS_DIR"
