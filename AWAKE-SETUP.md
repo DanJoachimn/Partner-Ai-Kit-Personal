@@ -27,8 +27,6 @@ Confirm: charger connected **+** monitor connected = lid-closed safe.
 
 **Help them pick one of those two.** Lead with the first; it keeps the install moving.
 
-*(Doing nothing is also fine: lid open + plugged in works, it just isn't portable. And if someone wants true 24/7 regardless of where their laptop is, the real answer is a dedicated always-on Mac — a cheap Mac mini left running. That's the serious-operator setup, not an install step.)*
-
 **"Is keeping it awake safe?" — the calibrated truth (only relevant to Path B):**
 - For what most people actually want — [AI_NAME] **reachable** (replies, the morning brief, light tasks) — the Mac sits idle ~99% of the time and barely warms. **Negligible risk. Don't overthink it.** Lead with the 24/7 magic, not the caveat.
 - The heat note only matters if you'll *regularly run heavy projects lid-closed* (long builds, big agent jobs). Even then a Mac **throttles and sleeps to protect itself before any damage** — there's no epidemic of laptops cooked this way; the warnings are precautionary. The three rules that erase the risk for heavy use: **plugged in · hard, ventilated surface (never a bed or couch) · a ~$15 vertical laptop stand** if you do it often. Fanless MacBook Airs warm fastest, so the stand helps most there.
