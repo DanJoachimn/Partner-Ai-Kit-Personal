@@ -159,13 +159,13 @@ Mark complete: `touch ~/[AI_NAME]/.voice-express-complete`
 
 Most users already set up their AI's real ElevenLabs voice in Part 1 (Stage 7). This stage is just the *upgrade path* — the big library.
 
-**If they skipped ElevenLabs in Part 1** (stayed on the robotic Mac voice): run the Part 1 Stage 7b/7c flow now — read `~/[AI_NAME]/.kit/AFFILIATE-LINKS.md`, open the ElevenLabs link (affiliate if present), free account, API key via the clipboard pattern into `~/.config/[ai-name]/elevenlabs/.env`, pick one of the three free voices, test with `say-to-mac.sh`. Show the disclosure line if it's the first affiliate link this session.
+**If they skipped ElevenLabs in Part 1** (stayed on the robotic Mac voice): run the Part 1 Stage 7b/7c flow now — read `~/[AI_NAME]/.kit/PARTNER-RECOMMENDATIONS.md`, open the ElevenLabs link (affiliate if present), free account, API key via the clipboard pattern into `~/.config/[ai-name]/elevenlabs/.env`, pick one of the three free voices, test with `say-to-mac.sh`. Show the disclosure line if it's the first affiliate link this session.
 
 **If they already did:** surface the upgrade softly, once — a nudge, not a sale:
 
 > "Quick one — you're on the ElevenLabs free tier, which covers your voice notes nicely. If you ever want the *big* library — thousands of voices, every accent and character, plus more speaking time — that's their paid plan. Totally optional; the voice you picked works great. You can browse the whole library free with the account you already made."
 
-Point them at the ElevenLabs link from `AFFILIATE-LINKS.md` to browse. No gate, no pressure.
+Point them at the ElevenLabs link from `PARTNER-RECOMMENDATIONS.md` to browse. No gate, no pressure.
 
 Mark complete: `touch ~/[AI_NAME]/.elevenlabs-configured`
 
@@ -317,7 +317,7 @@ touch ~/[AI_NAME]/.brain-layer-configured
 
 Purely optional — a nice-to-have, not essential. It slots in *after* the memory system on purpose: once the Brain exists, captured meetings have somewhere rich to land (cited `_Brain/` pages + `Meeting Notes/`). For anyone who takes calls (coaching, clients, sales), Granola auto-records, transcribes, and syncs them into the vault.
 
-Read `~/[AI_NAME]/.kit/AFFILIATE-LINKS.md` for the Granola link (affiliate if present, else granola.ai). Show the disclosure line only if no affiliate link has appeared yet this session. Frame it softly, as a recommendation — never a sale:
+Read `~/[AI_NAME]/.kit/PARTNER-RECOMMENDATIONS.md` for the Granola link (affiliate if present, else granola.ai). Show the disclosure line only if no affiliate link has appeared yet this session. Frame it softly, as a recommendation — never a sale:
 
 > "Totally optional one — if you take meetings, Granola records and transcribes them and drops the notes straight into your vault, so I 'remember' every call. Free for your first stretch of meetings; if the auto-capture habit sticks, that's when the paid plan pays for itself. Skip it happily if meetings aren't your thing."
 

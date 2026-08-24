@@ -1,6 +1,6 @@
-# Affiliate links — single source of truth
+# Partner recommendations — single source of truth
 
-> Every affiliate / referral link the kit surfaces lives **here, once.** The install playbook and docs reference these by name, so swapping a link (or adding a program) is a **one-file edit** — never a hunt across the repo.
+> Every partner recommendation the kit surfaces lives **here, once.** Some carry an affiliate or referral link; some are just tools we rate and earn nothing from. The install playbook and docs reference these by name, so swapping a link (or adding a program) is a **one-file edit** — never a hunt across the repo.
 >
 > **Status: LIVE.** Real affiliate links are in place. If a slot is ever blank, the kit falls back to the plain link — which still works perfectly for the user, it just earns no kickback.
 

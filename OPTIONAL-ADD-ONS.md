@@ -22,11 +22,20 @@
 - **Cost:** paid subscription (design tool). [AI_NAME]'s design work still functions without it — it just falls back to general pattern knowledge.
 - **Link:** [refero.design](https://refero.design)
 
-### ☕ Amphetamine — keep your Mac awake
-- **What it does:** stops your Mac sleeping when you close the lid, so [AI_NAME] stays reachable 24/7 — even on a bare laptop with no external monitor.
-- **Use it when:** you want to text [AI_NAME] from your phone while your laptop's closed, and you *don't* have an external display (if you do, you already have this for free — see AWAKE-SETUP).
+### 🌙 Agents Never Sleep — keep [AI_NAME] awake, lid closed **(our pick)**
+- **What it does:** the same job as Amphetamine, built for exactly this use case — keeps the Mac awake with the lid closed so long agent runs finish while you're away. Menu-bar app, native and tiny, collects no data.
+- **Use it when:** you want lid-closed always-on and you'd rather pay a fiver than walk the four-step Amphetamine toggle dance (uncheck Closed-Display Mode, build a power-adapter Trigger, and so on — the part of the install [AI_NAME] *can't* click for you).
+- **Cost:** **$4.99**, 14-day money-back guarantee.
+- **Why it exists:** `caffeinate` and the usual sleep-blockers stop working the moment the lid shuts. This is purpose-built for that gap.
+- **Before you buy — one thing to check:** the safe Amphetamine config ties wakefulness to the **power adapter**, so a closed laptop in a bag just sleeps (no heat, no battery drain). Agents Never Sleep does not say on its site whether it can do the same. **Check for a plugged-in-only option before relying on it in a bag.** If it has one, it's a straight upgrade. If not, treat it as desk-only.
+- **Link:** https://agentsneversleep.app
+
+### ☕ Amphetamine — the free alternative
+- **What it does:** same job as Agents Never Sleep above — stops your Mac sleeping when you close the lid, so [AI_NAME] stays reachable on a bare laptop.
+- **Use it when:** you'd rather spend ten minutes than five dollars.
 - **Cost:** **free** (Mac App Store).
-- **Setup:** the safe config (awake *only when plugged in* — never always-on) → **[AMPHETAMINE-SETUP.md](./AMPHETAMINE-SETUP.md)**.
+- **The trade-off:** the setup is four fiddly toggles in a menu-bar app [AI_NAME] can't click for you. It does have one thing the paid app doesn't advertise: a **power-adapter trigger**, so it's awake *only when plugged in* — which is what makes lid-closed safe in a bag.
+- **Setup:** the safe config → **[AMPHETAMINE-SETUP.md](./AMPHETAMINE-SETUP.md)**.
 - **Link:** [Amphetamine on the Mac App Store](https://apps.apple.com/app/amphetamine/id937984704)
 
 ### 🖼 fal.ai — image & video generation

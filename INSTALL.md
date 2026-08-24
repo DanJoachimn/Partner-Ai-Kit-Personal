@@ -301,7 +301,7 @@ From here, address yourself by the chosen name. Use `[AI_NAME]` in this playbook
 
 Offer this right at the top of kick-off so the user can **speak** the rest of the install instead of typing — it makes everything from here smoother, and it's the kit's first taste of voice-first.
 
-**Read `~/[AI_NAME]/.kit/AFFILIATE-LINKS.md`** for the Wispr Flow link (affiliate if present, else `https://wisprflow.ai`). This is usually the **first affiliate link of the session — show the disclosure line now.**
+**Read `~/[AI_NAME]/.kit/PARTNER-RECOMMENDATIONS.md`** for the Wispr Flow link (affiliate if present, else `https://wisprflow.ai`). This is usually the **first affiliate link of the session — show the disclosure line now.**
 
 > "Quick one before we dig in: want to talk to me instead of typing all this? **Wispr Flow** lets you dictate anywhere on your Mac — hold a hotkey, speak, it types for you. The free tier is 2,000 words a week, which easily covers this install and then some. Most people get hooked and stop typing altogether. Totally optional — I'll open the download page and you'll be running in about 2 minutes."
 
@@ -697,7 +697,7 @@ cp -R "~/[AI_NAME]/.kit/setup-guide/voice-io-kit" ~/.claude/skills/voice-io 2>/d
 
 ### 7b — Free ElevenLabs voice (~2 min, quiet — frame as plumbing, not a product)
 
-**Before surfacing the link: read `~/[AI_NAME]/.kit/AFFILIATE-LINKS.md`** and use the ElevenLabs link (affiliate if present, else plain). If Wispr Flow already triggered the affiliate disclosure line in Phase 0, don't repeat it.
+**Before surfacing the link: read `~/[AI_NAME]/.kit/PARTNER-RECOMMENDATIONS.md`** and use the ElevenLabs link (affiliate if present, else plain). If Wispr Flow already triggered the affiliate disclosure line in Phase 0, don't repeat it.
 
 Frame it as invisible setup — NOT a sales moment (the ElevenLabs reveal is Stage 8.5, after the aha):
 
@@ -835,7 +835,7 @@ Only now that they've *heard* it do you name what powered it — softly, a nice-
 > - **Change it** — I've got other free voices (a deep calm one, a warm British storyteller, a clear friendly one). Just say *'change my voice.'*
 > - **The big library** — if you ever want to pick from *thousands* of voices — every accent, every character — that's their paid plan. Totally optional; your free voice sounds great. You can browse the whole library free with the account you already made."
 
-If they want to browse or upgrade, read the ElevenLabs link from `~/[AI_NAME]/.kit/AFFILIATE-LINKS.md`. No pressure, no gate — a recommendation in passing, then move on.
+If they want to browse or upgrade, read the ElevenLabs link from `~/[AI_NAME]/.kit/PARTNER-RECOMMENDATIONS.md`. No pressure, no gate — a recommendation in passing, then move on.
 
 > "✅ **Part 1 complete.**"
 

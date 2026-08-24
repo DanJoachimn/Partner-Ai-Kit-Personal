@@ -20,12 +20,13 @@ Run: `system_profiler SPDisplaysDataType | grep -i resolution`
 Confirm: charger connected **+** monitor connected = lid-closed safe.
 
 ### Path B — Bare laptop (no external monitor)
-> *"On a bare laptop, closing the lid puts the Mac to sleep — and a sleeping Mac can't run [AI_NAME] or answer your texts. Three ways to handle it, easiest first:"*
+> *"On a bare laptop, closing the lid puts the Mac to sleep — and a sleeping Mac can't run [AI_NAME] or answer your texts. Four ways to handle it, easiest first:"*
 1. **Keep the lid open + plugged in** when you want [AI_NAME] reachable. Free, nothing to install.
-2. **Install Amphetamine** (free, Mac App Store) and set the **power-adapter trigger** so it keeps the Mac awake *only when plugged in* — never always-on (a closed laptop running in a bag is the one real overheat risk). The bare-laptop equivalent of clamshell. Heads-up: Amphetamine is a menu-bar app [AI_NAME] *can't* click for you, so it's a **guided manual setup** — full step-by-step in **[AMPHETAMINE-SETUP.md](./AMPHETAMINE-SETUP.md)**.
-3. **Dedicate an always-on Mac** (a cheap Mac mini left on) for true 24/7 — the serious-operator setup.
+2. **Agents Never Sleep** ($4.99, https://agentsneversleep.app) — **the one we'd pick.** Purpose-built for exactly this: keeps the Mac awake with the lid shut so long agent runs finish while you're away. Native, tiny, menu bar, collects no data. The setup is short enough not to derail the install, which is the whole reason it beats the free option. 14-day money-back guarantee. **One thing to check with the user:** whether it can be limited to *plugged in only* — that's the setting that makes lid-closed safe in a bag. It isn't advertised on the site, so if it can't, treat it as a desk setup and don't leave it running in a rucksack.
+3. **Amphetamine** (free, Mac App Store) — the no-spend alternative, same outcome. Set the **power-adapter trigger** so it stays awake *only when plugged in*, never always-on (a closed laptop running in a bag is the one real overheat risk). The catch is the setup: it's a menu-bar app [AI_NAME] *can't* click for you, so it's a **guided manual walk** of four fiddly toggles — full step-by-step in **[AMPHETAMINE-SETUP.md](./AMPHETAMINE-SETUP.md)**. Reach for it when the user would rather spend ten minutes than five dollars.
+4. **Dedicate an always-on Mac** (a cheap Mac mini left on) for true 24/7 — the serious-operator setup.
 
-Help them pick; if Amphetamine, walk the install + the one toggle (via computer-use if available).
+Help them pick. Lead with option 2; it keeps the install moving. If they'd rather not pay, walk Amphetamine's install + the one toggle (via computer-use if available).
 
 **"Is keeping it awake safe?" — the calibrated truth (only relevant to Path B):**
 - For what most people actually want — [AI_NAME] **reachable** (replies, the morning brief, light tasks) — the Mac sits idle ~99% of the time and barely warms. **Negligible risk. Don't overthink it.** Lead with the 24/7 magic, not the caveat.
